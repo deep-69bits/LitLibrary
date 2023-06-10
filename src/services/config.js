@@ -1,11 +1,18 @@
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  databaseURL: import.meta.env.VITE_FIREBASE_DB_URL,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MSG_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID
+  apiKey: "AIzaSyDZr1Q7ZN0RXzF4yM8lTFLLsKRMP0_TZKw",
+
+  authDomain: "masjids-1deec.firebaseapp.com",
+
+  projectId: "masjids-1deec",
+
+  storageBucket: "masjids-1deec.appspot.com",
+
+  messagingSenderId: "725794385604",
+
+  appId: "1:725794385604:web:45ca09a7891083512de391",
+
+  measurementId: "G-Y38TNSNC7K"
+
 };
 
 export default firebaseConfig;
